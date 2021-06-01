@@ -2,7 +2,7 @@
 </script>
 
 <main>
-	<div class="object-center">
+	<div class="flex flex-col justify-center items-center">
 			<img src="assets/logo.png" alt="logo">
 	</div>
 </main>
