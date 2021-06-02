@@ -1,4 +1,5 @@
 <script>
+  import Footer from './Footer.svelte'
 </script>
 
 <main>
@@ -6,6 +7,7 @@
     <img src="assets/logo.png" alt="logo" class="w-16" />
     <div class="heading">Learners' Academy</div>
   </div>
+    <Footer/>
 </main>
 
 <style global lang="postcss">
@@ -13,20 +15,14 @@
   @tailwind components;
   @tailwind utilities;
 
-  @layer utilities {
-    .ml-55 {
-      margin-left: 55%;
-    }
-  }
-	
   .heading {
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    color: #00923c;
-		@apply text-2xl
+    color: var(--primary);
+    @apply text-6xl;
   }
-	.Title{
-		@apply flex flex-col justify-center items-center;
-	}
+  .Title {
+    @apply flex flex-col justify-center items-center;
+  }
 </style>
