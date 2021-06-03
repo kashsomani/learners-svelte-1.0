@@ -1,4 +1,4 @@
-<footer class="footer fixed bottom-0 pt-1 border-b-2">
+<footer class="footer relative bottom-0 pt-1 border-b-2">
   <div
     class="text-xl font-bold uppercase mb-6 mt-8 flex flex-col justify-items-center items-center"
   >
@@ -80,8 +80,9 @@
 
 <style>
   footer {
+    bottom:0;
     width: 75%;
-    position: fixed;
+    position: relative;
     left: 50%;
     margin-left: -37.5%;
   }
