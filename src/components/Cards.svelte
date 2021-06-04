@@ -205,5 +205,10 @@
 	.button:hover {
 		background-color: goldenrod;
 	}
-    
+	.row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
     </style>
