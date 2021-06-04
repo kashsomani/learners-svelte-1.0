@@ -37,7 +37,7 @@
         />
     </div>
 
-<div>
+<div id="bottom-info">
     <Caption caption={images[imageShowingIndex].name}
     on:prevClick={prevSlide}
     on:nextClick={nextSlide}/>
@@ -67,22 +67,17 @@
     }
 
     main {
-        width: 100%;
-		height: 100%;
         display: flex;
         flex-direction: column;
-        box-shadow: 0 0 10px;
     }
 
     /* Position the image container (needed to position the left and right arrows) */
     .container {
-        display: flexbox;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-        position: relative;
-        width: 520px;
-		height: 344px;
+  width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+    
     }
 
     .thumbnails-row {

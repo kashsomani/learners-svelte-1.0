@@ -16,8 +16,13 @@
   position: absolute;
   top: 0;
 }
-	
 
+img{
+	width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -50.5%;
+}
 </style>
 
 
