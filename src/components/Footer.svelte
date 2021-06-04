@@ -31,7 +31,8 @@
         </div>
         <div class="flex flex-col">
           <div class="grid justify-items-center">
-            <span class="font-bold uppercase mt-4 md:mt-0 mb-2 text-center text-primary"
+            <span
+              class="font-bold uppercase mt-4 md:mt-0 mb-2 text-center text-primary"
               >Contact Number</span
             >
             <span class="my-2 mb-4 text-center"
@@ -39,7 +40,8 @@
                 >(+91) (865)-717-2731</a
               ></span
             >
-            <span class="font-bold uppercase mt-4 md:mt-0 mb-2 text-center text-primary"
+            <span
+              class="font-bold uppercase mt-4 md:mt-0 mb-2 text-center text-primary"
               >Email Address</span
             >
             <span class="my-2 text-center"
@@ -51,7 +53,9 @@
         </div>
         <div class="flex flex-col">
           <div class="grid justify-items-center">
-            <span class="font-bold uppercase mb-2 text-center text-primary">Office Timings</span>
+            <span class="font-bold uppercase mb-2 text-center text-primary"
+              >Office Timings</span
+            >
             <span class="my-2 text-center"
               ><a href="#" class="  text-md hover:text-blue-500"
                 >Monday to Friday: 9.00 A.M. to 12.00 P.M</a
@@ -80,7 +84,7 @@
 
 <style>
   footer {
-    bottom:0;
+    bottom: 0;
     width: 75%;
     position: relative;
     left: 50%;
