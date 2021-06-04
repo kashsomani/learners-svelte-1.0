@@ -70,8 +70,9 @@
 		background-color: transparent;
 		width: 200px;
 		height: 310px;
-		margin: 0 20px 40px;
-		border: 1px solid #f1f1f1;
+		margin: 0 1rem 2rem;
+		margin-top: 1rem;
+		border: 1px solid #000;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 	}
 
@@ -115,8 +116,8 @@
 		justify-content: space-between;
 		background-color: rgb(34, 104, 49);
 		color: white;
-		width: 196px;
-		height: 300px;
+		width: 100%;
+		height: 100%;
 		transform: rotateY(180deg) translateX(6px);
 	}
 
@@ -129,7 +130,7 @@
 	footer {
 		width: 200px;
 		font-weight: 800;
-		padding: 5px 2px;
+		padding: 0.5rem 1rem;
 		text-align: center;
 		border: 1px solid darkgray;
 		border-top: 1px solid black;
