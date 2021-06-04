@@ -69,6 +69,7 @@
     main {
         display: flex;
         flex-direction: column;
+        
     }
 
     /* Position the image container (needed to position the left and right arrows) */

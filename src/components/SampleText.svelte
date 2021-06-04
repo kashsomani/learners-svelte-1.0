@@ -2,12 +2,15 @@
   import SlideShow from './SlideShow.svelte';
   import Cards from './Cards.svelte'
   import AboutUs from './AboutUs.svelte'
+  import Intro from './Intro.svelte'
 </script>
-
+<div class="p-20 text-justify">
+  <Intro/>
+</div>
 <div id="slideshow">
   <SlideShow/>
 </div>
-<div class="p-10 text-justify" id="about-us">
+<div class="p-20 text-justify">
   <AboutUs/>
 </div>
 <div id="cards">
@@ -16,10 +19,10 @@
 
 <style>
   #slideshow{
-    width:50%;
+    width:75%;
     position: relative;
     left: 50%;
-    margin-left: -25%;
+    margin-left: -37.5%;
   }
   #cards{
     width: 75%;
@@ -27,10 +30,5 @@
     left: 50%;
     margin-left: -37.5%;
   }
-  #about-us{
-    width: 75%;
-    position: relative;
-    left: 50%;
-    margin-left: -37.5%;
-  }
+
 </style>
