@@ -17,20 +17,4 @@
 	@tailwind components;
 	@tailwind utilities;
 
-	@layer utilities {
-		.ml-55 {
-			margin-left: 55%;
-		}
-	}
-
-	h1 {
-		margin: 0 0 5px;
-	}
-
-	.row {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-bottom: 10%;
-	}
 </style>
