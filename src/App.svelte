@@ -9,7 +9,7 @@
     <img src="assets/logo.png" alt="logo" class="w-16" />
     <div class="heading">Learners' Academy</div>
   </div>
-  <div class="p-20 pt-2">
+  <div class="p-44 pt-2">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget metus
     arcu. Quisque orci leo, rutrum vel egestas id, mattis ornare dolor. Praesent
     metus est, rutrum ut nisl at, venenatis bibendum sapien. Aenean purus mi,
