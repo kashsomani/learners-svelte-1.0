@@ -74,6 +74,16 @@
   <div class="container mx-auto px-6">
     <div class="mt-16 border-t-2 flex flex-col items-center">
       <div class="sm:w-2/3 text-center py-6">
+        <div class="flex flex-col items-center">
+          <div class="w-24 mb-2 grid grid-flow-col gap-4">
+            <a href="https://www.facebook.com/learners.academy.school/?hc_ref=ARTtJsIBUrHYlgdpL6I1VFXbJ9HCpHKhKWBGMsViHeCBYMZ59HB2eOUKcwoC8I7nD8Q&fref=nf&__tn__=kC-R">
+              <img src="./assets/facebook.svg" alt="">
+            </a>
+            <a href="https://www.instagram.com/learners_academy_official_/">
+              <img src="./assets/instagram.svg" alt="">
+            </a>
+          </div>
+        </div>
         <p class="text-sm font-bold mb-2">
           © 2021 by Kashish Somani
         </p>

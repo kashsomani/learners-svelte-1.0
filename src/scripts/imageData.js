@@ -2,31 +2,31 @@ export const images = [
     {
         id: 0,
         name: "School building",
-        imgurl: "assets/School building.jpg",
+        imgurl: "assets/School building 2.png",
     },
     {
         id: 1,
-        name: "Actor Ranveer Singh (Ex Alumni)",
-        imgurl: "assets/Actors.jpg",
+        name: "Mr. and Mrs. Gupta with Respected Asif Zakaria",
+        imgurl: "assets/Actors 2.png",
     },
     {
         id: 2,
-        name: "Inter School Football",
-        imgurl: "assets/inter school football.jpg",
+        name: "Our ex-student Ranveer Singh revisits",
+        imgurl: "assets/inter school football 2.png",
     },
     {
         id: 3,
-        name: "French",
-        imgurl: "assets/French.jpg",
+        name: "Sports Day",
+        imgurl: "assets/French 2.png",
     },
     {
         id: 4,
-        name: "Farewell 2018",
-        imgurl: "assets/Farewell 2018.jpg",
+        name: "Annual Day Special Guest",
+        imgurl: "assets/Farewell 2018 2.png",
     },
     {
         id: 5,
-        name: "Children's day",
-        imgurl: "assets/Children's day.jpg",
+        name: "Choir practice",
+        imgurl: "assets/Children's day 2.png",
     },
 ];

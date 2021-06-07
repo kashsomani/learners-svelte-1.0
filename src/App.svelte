@@ -9,7 +9,8 @@
   <SideNav />
   <div class="Title">
     <img src="assets/logo.png" alt="logo" class="w-16" />
-    <div class="heading">Learners' Academy</div>
+    <div class="heading"> <h1>Learners' Academy</h1> </div>
+    <div id="motto">Life is Learning</div>
   </div>
   <Router {routes} />
 
@@ -23,6 +24,13 @@
 
   main {
     flex: 1 1 auto;
+  }
+  #motto{
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary);
+    @apply text-3xl;
   }
   .heading {
     font-style: normal;

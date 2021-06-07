@@ -50,7 +50,6 @@
             <div class="flip-box-inner" class:show-back={selected === i}>
                 <div class="flip-box-front card">
                     <img src={img} alt={name}>
-                    <h2>{name}</h2>
                 </div>
 
                 <div class="flip-box-back container">
