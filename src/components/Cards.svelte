@@ -22,7 +22,7 @@
 		  position: "Principal",
 		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
 		  email: "jessica@example.com",
-		  img: "assets/logo.png"	
+		  img: "assets/jessica.jpg"	
 	  }
   ]
 

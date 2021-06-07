@@ -12,7 +12,7 @@ export const images = [
     {
         id: 2,
         name: "Our ex-student Ranveer Singh revisits",
-        imgurl: "assets/inter school football 2.png",
+        imgurl: "assets/ranveer1.jpg",
     },
     {
         id: 3,
