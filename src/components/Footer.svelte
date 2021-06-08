@@ -85,7 +85,7 @@
           </div>
         </div>
         <p class="text-sm font-bold mb-2">
-          © 2021 by Kashish Somani
+          © 2021 by Kashish Somani and Renuka D'Souza
         </p>
       </div>
     </div>
