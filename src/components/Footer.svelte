@@ -88,7 +88,7 @@
           © 2021 by Kashish Somani and Renuka D'Souza
         </p>
         <p class="text-xs font-bold mb-2">
-          For any website related queries contact <a href="mailto:kash@kashsomani.com"></a> kash@kashsomani.com or visit <a href="https://www.kashsomani.com">www.kashsomani.com</a>
+          For any website related queries contact <a href="mailto:kash@kashsomani.com" class="text-primary">kash@kashsomani.com</a>  or visit <a href="https://www.kashsomani.com" class="text-primary">www.kashsomani.com</a>
         </p>
       </div>
     </div>
