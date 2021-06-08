@@ -12,7 +12,7 @@
 	align-items: center;
 	justify-content: space-between;
   text-align: center;
-  background-color: rgb(24, 68, 27);
+  background-color: #00923c;
 	font-size: 1.2rem;
   padding: 2px 16px;
   color: white;

@@ -67,11 +67,11 @@
 <style>	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 	.flip-box {
 		background-color: transparent;
-		width: 200px;
+		width: 199px;
 		height: 310px;
 		margin: 0 1rem 2rem;
 		margin-top: 1rem;
-		border: 1px solid #000;
+		box-shadow: 0 4px 8px 0 rgba(178, 228, 185, 0.2);
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 	}
 
@@ -103,85 +103,59 @@
 		backface-visibility: hidden;
 	}
 
-	/* Style the front side */
-	.flip-box-front {
-		background-color: rgb(76, 167, 103);
-	}
+	
 
 	/* Style the back side */
 	.flip-box-back {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: rgb(34, 104, 49);
+		background-color: #00923c;
 		color: white;
-		width: 100%;
-		height: 100%;
-		transform: rotateY(180deg) translateX(6px);
+		transform: rotateY(180deg) ;
+		border: 1px solid darkgray;
 	}
 
 
 	img {
-		max-height: 100%;
-
+		height: 100%;
+		max-width: 100%;
+		
 	}	
 
 	footer {
-		width: 200px;
+		width: 100%;
 		font-weight: 800;
 		padding: 0.5rem 1rem;
 		text-align: center;
 		border: 1px solid darkgray;
-		border-top: 1px solid black;
-/* 		box-shadow: 0 0 2px black; */
 		cursor: pointer;
 		transition: .3s all;
 	}
 	
 	footer:hover {
 		color: #fff;
-		background-color: rgb(23, 78, 37);
-		border: 1px solid black;
+		background-color: #00923c;
+		border: 1px solid darkgray;
+		box-shadow: 0 8px 16px 0 rgba(226, 243, 234, 0.2);
 	}
 	
 	footer:active {
 		color: rgb(10, 63, 38);
-		background-color: #888
+		border: 1px solid darkgray;
+		background-color: darkgray;
+		box-shadow: 0 8px 16px 0 rgba(226, 243, 234, 0.2);
 	}
 
-		/* Three columns side by side */
-	/* .column {
-		float: left;
-		width: 33.3%;
-		margin-bottom: 16px;
-		padding: 0 8px;
-	} */
-
-	/* Display the columns below each other instead of side by side on small screens */
-	/* @media screen and (max-width: 650px) {
-		.column {
-			width: 100%;
-			display: block;
-		}
-	}
-	 */
 	/* Add some shadows to create a card effect */
 	.card {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 4px 8px 0 #00923c;
 	}
 
 	/* Some left and right padding inside the container */
 	.container {
 		padding: 5px;
 	}
-
-	/* Clear floats */
-/* 	.container::after, .row::after {
-		content: "";
-		clear: both;
-		display: table;
-	} */
-	
 	h2 {
 		margin: 5px 0 0 0;
 	}	
@@ -190,21 +164,6 @@
 		color: grey;
 	}
 
-	.button {
-		border: none;
-		outline: 0;
-		display: inline-block;
-		padding: 8px;
-		font-weight: bold;
-		background-color: #FFF;
-		text-align: center;
-		cursor: pointer;
-		width: 80%;
-	}
-
-	.button:hover {
-		background-color: goldenrod;
-	}
 	.row {
         display: flex;
         flex-wrap: wrap;
