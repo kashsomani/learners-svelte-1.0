@@ -13,17 +13,17 @@
           <div class="grid justify-items-center">
             <span class="font-bold uppercase mb-2 text-primary ">Address</span>
             <span class="my-2 text-center mb-0"
-              ><a href="#" class="  text-md hover:text-blue-500"
+              ><a href="#" class="  text-md "
                 >Learners Academy,</a
               ></span
             >
             <span class="my-2 text-center mb-0 mt-0"
-              ><a href="#" class="  text-md hover:text-blue-500 "
+              ><a href="#" class="  text-md  "
                 >Mangal Aarti, St. Andrews Rd, Bandra West,</a
               ></span
             >
             <span class="my-2 text-center mt-0"
-              ><a href="#" class="  text-md hover:text-blue-500"
+              ><a href="#" class="  text-md "
                 >Mumbai - 400050, MH, IND</a
               ></span
             >
@@ -36,7 +36,7 @@
               >Contact Number</span
             >
             <span class="my-2 mb-4 text-center"
-              ><a href="#" class=" text-md hover:text-blue-500 "
+              ><a href="#" class=" text-md "
                 >(+91) (865)-717-2731</a
               ></span
             >
@@ -45,7 +45,7 @@
               >Email Address</span
             >
             <span class="my-2 text-center"
-              ><a href="#" class=" text-md hover:text-blue-500"
+              ><a href="mailto:info@learnersacademy.eduation" class=" text-md"
                 >info@learnersacademy.eduation</a
               ></span
             >
