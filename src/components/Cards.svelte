@@ -4,25 +4,33 @@
 		id: 0,
 		  name: "Mr Sumeet Gupta",
 		  position: "Trustee",
-		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
-		  email: "sumeet@example.com",
+		  descr: "Mr. Sumeet Gupta is the spearhead and visionary of Learners’.",
+		  email: "",
 		  img: "assets/sumeet.jpg"	
 	  },
 	{
 		id: 1,
 		  name: "Mrs. Shahin Somani",
 		  position: "Administrator",
-		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
-		  email: "shahin@example.com",
+		  descr: "Mrs.Shahin Somani is an inspiring leader who ensures that Learners’ remains a step ahead.",
+		  email: "shahinsomani@learnersacademy.education",
 		  img: "assets/shahin.jpg"	
 	  },
 	{
 		id: 2,
 		  name: "Miss Jessica Sequeira",
 		  position: "Principal",
-		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
-		  email: "jessica@example.com",
+		  descr: "Ms.Jessica Sequeira is a dynamic principal who maintains the excellent academics at Learners’.",
+		  email: "jessicasequeira@learnersacademy.education",
 		  img: "assets/jessica.jpg"	
+		},
+	{
+		id: 3,
+		  name: "Miss Yashica Patel",
+		  position: "Vice-Administrator",
+		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
+		  email: "yashicapatel@learnersacademy.education",
+		  img: "assets/yashica new.jpg"	
 	  }
   ]
 
