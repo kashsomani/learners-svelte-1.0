@@ -76,11 +76,13 @@
       <div class="sm:w-2/3 text-center py-6">
         <div class="flex flex-col items-center">
           <div class="w-24 mb-2 grid grid-flow-col gap-4">
-            <a href="https://www.facebook.com/learners.academy.school/?hc_ref=ARTtJsIBUrHYlgdpL6I1VFXbJ9HCpHKhKWBGMsViHeCBYMZ59HB2eOUKcwoC8I7nD8Q&fref=nf&__tn__=kC-R">
-              <img src="./assets/facebook.svg" alt="">
+            <a
+              href="https://www.facebook.com/learners.academy.school/?hc_ref=ARTtJsIBUrHYlgdpL6I1VFXbJ9HCpHKhKWBGMsViHeCBYMZ59HB2eOUKcwoC8I7nD8Q&fref=nf&__tn__=kC-R"
+            >
+              <img src="./assets/facebook.svg" alt="" />
             </a>
             <a href="https://www.instagram.com/learners_academy_official_/">
-              <img src="./assets/instagram.svg" alt="">
+              <img src="./assets/instagram.svg" alt="" />
             </a>
           </div>
         </div>
@@ -88,7 +90,15 @@
           © 2021 by Kashish Somani and Renuka D'Souza
         </p>
         <p class="text-xs font-bold mb-2">
-          For any website related queries contact <a href="mailto:kash@kashsomani.com" class="text-primary">kash@kashsomani.com</a>  or visit <a href="https://www.kashsomani.com" class="text-primary">www.kashsomani.com</a>
+          For any website related queries contact <a
+            href="mailto:kash@kashsomani.com"
+            class="text-primary">kash@kashsomani.com</a
+          > | <a href="mailto:renukalearners@gmail.com" class="text-primary">renukalearners@gmail.com</a>
+          or visit
+          <a href="https://www.kashsomani.com" class="text-primary"
+            >www.kashsomani.com</a
+          >
+          
         </p>
       </div>
     </div>

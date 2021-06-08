@@ -41,6 +41,6 @@
     top: 0%;
   }
   .Title {
-    @apply flex flex-col justify-center items-center p-2;
+    @apply flex flex-col justify-center items-center p-4;
   }
 </style>

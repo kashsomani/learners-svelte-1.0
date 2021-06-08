@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <div class="p-20 text-justify">
+  <div class="p-12 text-justify">
     <Intro />
   </div>
   <div id="slideshow">

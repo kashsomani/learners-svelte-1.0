@@ -61,7 +61,10 @@
 	<!-- Previous Arrow -->
 	<a href="#arrowL" class="arrow prev" on:click={() => dispatch('prevClick')}>&#10094;</a>
 		<!-- Caption -->
-	<p id="caption">{caption}</p>
+    <div class="text-xs md:text-lg">
+      <p id="caption">{caption}</p>
+    </div>
+	
 		<!-- Next Arrow -->
 	<a href="#arrowR" class="arrow next" on:click={() => dispatch('nextClick')}>&#10095;</a>
 </div>
