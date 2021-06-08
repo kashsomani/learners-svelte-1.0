@@ -5,7 +5,7 @@
 		  name: "Mr Sumeet Gupta",
 		  position: "Trustee",
 		  descr: "Mr. Sumeet Gupta is the spearhead and visionary of Learners’.",
-		  email: "",
+		  email: "shahinsomani@learnersacademy.education",
 		  img: "assets/sumeet.jpg"	
 	  },
 	{
@@ -28,7 +28,7 @@
 		id: 3,
 		  name: "Miss Yashica Patel",
 		  position: "Vice-Administrator",
-		  descr: "Some text that describes me lorem ipsum ipsum lorem.",
+		  descr: "Ms.Yashica Patel is an enthusiastic deputy admin who mentors the engaging activities of Learners'.",
 		  email: "yashicapatel@learnersacademy.education",
 		  img: "assets/yashica new.jpg"	
 	  }
@@ -64,7 +64,7 @@
                     <h2>{name}</h2>
                     <p class="title">{position}</p>
                     <p>{descr}</p>
-                    <p>{email}</p>
+                    <a href="mailto:{email}">Email</a>
                 </div>
             </div>
             <footer on:click={toggleBackFront} data-card-id={i}>{position}</footer>

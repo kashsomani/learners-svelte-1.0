@@ -1,12 +1,12 @@
 <script>
   import Footer from "./components/Footer.svelte"
-  import SideNav from "./components/SideNav.svelte"
+  // import SideNav from "./components/SideNav.svelte"
   import Router from "svelte-spa-router"
   import { routes } from "./router/routes.js"
 </script>
 
 <main>
-  <SideNav />
+  <!-- <SideNav /> -->
   <div class="Title">
     <img src="assets/logo.png" alt="logo" class="w-16" />
     <div class="heading"> <h1>Learners' Academy</h1> </div>
