@@ -9,9 +9,10 @@
   <!-- <SideNav /> -->
   <div class="Title">
     <img src="assets/logo.png" alt="logo" class="w-16" />
-    <div class="heading"> <h1>Learners' Academy</h1> </div>
+    <div class="heading"><h1>Learners' Academy</h1></div>
     <div id="motto">Life is Learning</div>
   </div>
+
   <Router {routes} />
 
   <Footer />
@@ -25,7 +26,7 @@
   main {
     flex: 1 1 auto;
   }
-  #motto{
+  #motto {
     font-style: normal;
     font-weight: bold;
     text-align: center;

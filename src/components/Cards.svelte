@@ -6,7 +6,7 @@
 		  position: "Trustee",
 		  descr: "Mr. Sumeet Gupta is the spearhead and visionary of Learners’.",
 		  email: "shahinsomani@learnersacademy.education",
-		  img: "assets/sumeet.jpg"	
+		  img: "./assets/sumeet.jpg"	
 	  },
 	{
 		id: 1,
@@ -14,7 +14,7 @@
 		  position: "Administrator",
 		  descr: "Mrs.Shahin Somani is an inspiring leader who ensures that Learners’ remains a step ahead.",
 		  email: "shahinsomani@learnersacademy.education",
-		  img: "assets/shahin.jpg"	
+		  img: "./assets/shahin.jpg"
 	  },
 	{
 		id: 2,
@@ -22,7 +22,7 @@
 		  position: "Principal",
 		  descr: "Ms.Jessica Sequeira is a dynamic principal who maintains the excellent academics at Learners’.",
 		  email: "jessicasequeira@learnersacademy.education",
-		  img: "assets/jessica.jpg"	
+		  img: "./assets/jessica.jpg"	
 		},
 	{
 		id: 3,
@@ -30,7 +30,7 @@
 		  position: "Vice-Administrator",
 		  descr: "Ms.Yashica Patel is an enthusiastic deputy admin who mentors the engaging activities of Learners'.",
 		  email: "yashicapatel@learnersacademy.education",
-		  img: "assets/yashica new.jpg"	
+		  img: "./assets/yashica new.jpg"	
 	  }
   ]
 
