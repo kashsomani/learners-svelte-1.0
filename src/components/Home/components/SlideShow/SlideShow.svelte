@@ -1,5 +1,5 @@
 <script>
-    import { images } from "../scripts/imageData.js";
+    import { images } from "./scripts/imageData.js";
     import Slide from "./Slide.svelte";
     import Thumbnail from "./Thumbnail.svelte";
     import Caption from "./Caption.svelte";

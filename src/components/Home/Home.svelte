@@ -1,8 +1,8 @@
 <script>
-	import SlideShow from "./SlideShow.svelte"
-	import Cards from "./Cards.svelte"
-	import AboutUs from "./AboutUs.svelte"
-	import Intro from "./Intro.svelte"
+	import AboutUs from "./components/AboutUs.svelte"
+	import Intro from "./components/Intro.svelte"
+	import SlideShow from "./components/SlideShow/SlideShow.svelte"
+	import Cards from "./components/Cards.svelte"
 </script>
 
 <main>

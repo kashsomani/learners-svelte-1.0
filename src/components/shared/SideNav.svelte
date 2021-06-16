@@ -2,8 +2,11 @@
   <div class=" inset-y-0 left-0 text-center justify-items-center">
     <a href="#" class="pt-1 px-6 "><img src="./assets/home.svg" alt="home" /></a
     >
-    <a href="#/example" class="pt-1 px-6 "
+    <a href="#/activities" class="pt-1 px-6 "
       ><img src="./assets/pictures.svg" alt="pictures" /></a
+    >
+    <a href="#/teachers" class="pt-1 px-6 "
+      ><img src="./assets/teachers.svg" alt="pictures" /></a
     >
   </div>
   <div />

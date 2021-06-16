@@ -1,6 +1,6 @@
 <script>
-	import Footer from "./components/Footer.svelte"
-	import SideNav from "./components/SideNav.svelte"
+	import Footer from "./components/shared/Footer.svelte"
+	import SideNav from "./components/shared/SideNav.svelte"
 	import Router from "svelte-spa-router"
 	import { routes } from "./router/routes.js"
 </script>

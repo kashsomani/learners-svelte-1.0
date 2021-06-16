@@ -1,8 +1,9 @@
-import Home from "../components/Home.svelte"
-import Activities from "../components/Activities.svelte"
+import Home from "../components/Home/Home.svelte"
+import Activities from "../components/Activities/Activities.svelte"
+import Teachers from "../components/Teachers/Teachers.svelte"
 
 export const routes = {
   "/": Home,
-  "/example": Activities,
-
+  "/activities": Activities,
+  "/teachers": Teachers
 }
