@@ -13,18 +13,18 @@
           <div class="grid justify-items-center">
             <span class="font-bold uppercase mb-2 text-primary ">Address</span>
             <span class="my-2 text-center mb-0"
-              ><a href="#" class="  text-md "
-                >Learners Academy,</a
+              ><p class="  text-md "
+                >Learners Academy,</p
               ></span
             >
             <span class="my-2 text-center mb-0 mt-0"
-              ><a href="#" class="  text-md  "
-                >Mangal Aarti, St. Andrews Rd, Bandra West,</a
+              ><p class="  text-md  "
+                >Mangal Aarti, St. Andrews Rd, Bandra West,</p
               ></span
             >
             <span class="my-2 text-center mt-0"
-              ><a href="#" class="  text-md "
-                >Mumbai - 400050, MH, IND</a
+              ><p class="  text-md "
+                >Mumbai - 400050, MH, IND</p
               ></span
             >
           </div>
@@ -36,8 +36,8 @@
               >Contact Number</span
             >
             <span class="my-2 mb-4 text-center"
-              ><a href="#" class=" text-md "
-                >(+91) (865)-717-2731</a
+              ><p class=" text-md "
+                >(+91) (865)-717-2731</p
               ></span
             >
             <span
@@ -45,8 +45,8 @@
               >Email Address</span
             >
             <span class="my-2 text-center"
-              ><a href="mailto:info@learnersacademy.eduation" class=" text-md"
-                >info@learnersacademy.eduation</a
+              ><a href="mailto:admin@learnersacademy.eduation" class=" text-md"
+                >admin@learnersacademy.eduation</a
               ></span
             >
           </div>
@@ -57,13 +57,13 @@
               >Office Timings</span
             >
             <span class="my-2 text-center"
-              ><a href="#" class="  text-md hover:text-blue-500"
-                >Monday to Friday: 9.00 A.M. to 12.00 P.M</a
+              ><p class="  text-md hover:text-blue-500"
+                >Monday to Friday: 9.00 A.M. to 12.00 P.M</p
               ></span
             >
             <span class="my-2 text-center text-xs text-primary"
-              ><a href="#" class="  text-md hover:text-blue-500"
-                >*No School Business is transacted on Holidays</a
+              ><p class="  text-md hover:text-blue-500"
+                >*No School Business is transacted on Holidays</p
               ></span
             >
           </div>
@@ -75,7 +75,7 @@
     <div class="mt-16 border-t-2 flex flex-col items-center">
       <div class="sm:w-2/3 text-center py-6">
         <div class="flex flex-col items-center">
-          <div class="w-24 mb-2 grid grid-flow-col gap-4">
+          <div class="w-32 mb-2 grid grid-flow-col gap-4">
             <a
               href="https://www.facebook.com/learners.academy.school/?hc_ref=ARTtJsIBUrHYlgdpL6I1VFXbJ9HCpHKhKWBGMsViHeCBYMZ59HB2eOUKcwoC8I7nD8Q&fref=nf&__tn__=kC-R"
             >
@@ -83,6 +83,9 @@
             </a>
             <a href="https://www.instagram.com/learners_academy_official_/">
               <img src="./assets/instagram.svg" alt="" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCl2Zwuym0iE03Ijk-OrZUTA">
+              <img src="./assets/youtube.svg" alt="" />
             </a>
           </div>
         </div>
