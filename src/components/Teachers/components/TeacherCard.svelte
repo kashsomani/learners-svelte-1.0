@@ -1,4 +1,8 @@
 <script>
+	export let name;
+	export let info;
+	export let src;
+	export let email;
 	import TeacherCardHoverable from './TeacherCardHoverable.svelte'
 	import {fade} from 'svelte/transition'
 </script>
@@ -10,17 +14,16 @@
 				<img
 					alt=""
 					class="p-4 w-48 block mx-auto"
-					src="assets/Teachers/Amina.png"
+					src={src}
 				/>
 			</div>
 			<TeacherCardHoverable let:hover={active}>
 				<div class="h-full">
 					{#if !active}
 						<div class="p-4" in:fade={{ duration: 300 }}>
-							<h4 class=" text-2xl mb-3">Amina</h4>
+							<h4 class=" text-2xl mb-3">{name}</h4>
 							<p class="leading-normal">
-								Magni inventore repellat dignissimos eveniet dolore ex sit
-								illo adipisci accusamus quos.
+								{info}
 							</p>
 						</div>
 						<!-- content here -->
@@ -29,7 +32,7 @@
 							in:fade={{ duration: 300 }}
 							class="grid grid-cols-1 grid-flow-col place-items-center p-4"
 						>	
-							<a href="mailto:info@learnersacademy.education" class="w-3/4"><img src="assets/email.png" alt=""/></a>
+							<a href="mailto:{email}" class="w-3/4"><img src="assets/email.png" alt=""/></a>
 							
 						</div>
 					{/if}
