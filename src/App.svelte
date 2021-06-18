@@ -1,8 +1,8 @@
 <script>
-	import Footer from "./components/shared/Footer.svelte"
-	import SideNav from "./components/shared/SideNav.svelte"
-	import Router from "svelte-spa-router"
-	import { routes } from "./router/routes.js"
+	import Footer from "./components/shared/Footer.svelte";
+	import SideNav from "./components/shared/SideNav.svelte";
+	import Router from "svelte-spa-router";
+	import { routes } from "./router/routes.js";
 </script>
 
 <main>
@@ -12,7 +12,7 @@
 		<div class="heading"><h1>Learners' Academy</h1></div>
 		<div id="motto">Life is Learning</div>
 	</div>
-	
+
 	<Router {routes} />
 
 	<Footer />

@@ -2,7 +2,10 @@
 	import { fly } from "svelte/transition";
 </script>
 
-<div in:fly={{duration:2000}} class="p-20 grid grid-cols-1 place-items-center">
+<div
+	in:fly={{ duration: 2000 }}
+	class="p-20 grid grid-cols-1 place-items-center"
+>
 	<div>
 		<iframe
 			src="https://www.youtube.com/embed/hlWiI4xVXKY"

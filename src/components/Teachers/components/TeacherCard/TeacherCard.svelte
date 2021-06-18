@@ -3,19 +3,15 @@
 	export let info;
 	export let src;
 	export let email;
-	import TeacherCardHoverable from './TeacherCardHoverable.svelte'
-	import {fade} from 'svelte/transition'
+	import TeacherCardHoverable from "./TeacherCardHoverable.svelte";
+	import { fade } from "svelte/transition";
 </script>
 
 <div class="card-container ">
 	<div class="max-w-md mx-auto p-0 m-0">
 		<div class="relative m-0 shadow-lg bg-light grid grid-cols-2">
 			<div class="grid grid-cols-1 place-items-center h-full card-image ">
-				<img
-					alt={name}
-					class="p-4 w-48 block mx-auto"
-					{src}
-				/>
+				<img alt={name} class="p-4 w-48 block mx-auto" {src} />
 			</div>
 			<TeacherCardHoverable let:hover={active}>
 				<div class="h-full">
@@ -31,9 +27,10 @@
 						<div
 							in:fade={{ duration: 500 }}
 							class="grid grid-cols-1 grid-flow-col place-items-center p-4"
-						>	
-							<a href="mailto:{email}" class="w-3/4"><img src="assets/email.png" alt=""/></a>
-							
+						>
+							<a href="mailto:{email}" class="w-3/4"
+								><img src="assets/email.png" alt="" /></a
+							>
 						</div>
 					{/if}
 				</div>

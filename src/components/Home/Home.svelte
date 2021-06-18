@@ -1,12 +1,12 @@
 <script>
-	import AboutUs from "./components/AboutUs.svelte"
-	import Intro from "./components/Intro.svelte"
-	import SlideShow from "./components/SlideShow/SlideShow.svelte"
-	import Cards from "./components/Cards/Cards.svelte"
+	import AboutUs from "./components/AboutUs.svelte";
+	import Intro from "./components/Intro.svelte";
+	import SlideShow from "./components/SlideShow/SlideShow.svelte";
+	import Cards from "./components/Cards/Cards.svelte";
 	import { fly } from "svelte/transition";
 </script>
 
-<main in:fly={{duration:2000}}>
+<main in:fly={{ duration: 2000 }}>
 	<div class="p-20 text-justify">
 		<Intro />
 	</div>

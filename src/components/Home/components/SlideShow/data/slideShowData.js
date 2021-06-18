@@ -1,5 +1,5 @@
-const SlideshowDirectory="assets/slideshow"
-const src = (img)=>`${SlideshowDirectory}/${img}`
+const SlideshowDirectory = "assets/slideshow"
+const src = (img) => `${SlideshowDirectory}/${img}`
 export const images = [
     {
         id: 0,

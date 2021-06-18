@@ -13,19 +13,15 @@
           <div class="grid justify-items-center">
             <span class="font-bold uppercase mb-2 text-primary ">Address</span>
             <span class="my-2 text-center mb-0"
-              ><p class="  text-md "
-                >Learners Academy,</p
-              ></span
+              ><p class="  text-md ">Learners Academy,</p></span
             >
             <span class="my-2 text-center mb-0 mt-0"
-              ><p class="  text-md  "
-                >Mangal Aarti, St. Andrews Rd, Bandra West,</p
-              ></span
+              ><p class="  text-md  ">
+                Mangal Aarti, St. Andrews Rd, Bandra West,
+              </p></span
             >
             <span class="my-2 text-center mt-0"
-              ><p class="  text-md "
-                >Mumbai - 400050, MH, IND</p
-              ></span
+              ><p class="  text-md ">Mumbai - 400050, MH, IND</p></span
             >
           </div>
         </div>
@@ -36,9 +32,7 @@
               >Contact Number</span
             >
             <span class="my-2 mb-4 text-center"
-              ><p class=" text-md "
-                >(+91) (865)-717-2731</p
-              ></span
+              ><p class=" text-md ">(+91) (865)-717-2731</p></span
             >
             <span
               class="font-bold uppercase mt-4 md:mt-0 mb-2 text-center text-primary"
@@ -57,14 +51,14 @@
               >Office Timings</span
             >
             <span class="my-2 text-center"
-              ><p class="  text-md hover:text-blue-500"
-                >Monday to Friday: 9.00 A.M. to 12.00 P.M</p
-              ></span
+              ><p class="  text-md hover:text-blue-500">
+                Monday to Friday: 9.00 A.M. to 12.00 P.M
+              </p></span
             >
             <span class="my-2 text-center text-xs text-primary"
-              ><p class="  text-md hover:text-blue-500"
-                >*No School Business is transacted on Holidays</p
-              ></span
+              ><p class="  text-md hover:text-blue-500">
+                *No School Business is transacted on Holidays
+              </p></span
             >
           </div>
         </div>
@@ -96,12 +90,15 @@
           For any website related queries contact <a
             href="mailto:kash@kashsomani.com"
             class="text-primary">kash@kashsomani.com</a
-          > | <a href="mailto:renukalearners@gmail.com" class="text-primary">renukalearners@gmail.com</a>
+          >
+          |
+          <a href="mailto:renukalearners@gmail.com" class="text-primary"
+            >renukalearners@gmail.com</a
+          >
           or visit
           <a href="https://www.kashsomani.com" class="text-primary"
             >www.kashsomani.com</a
           >
-          
         </p>
       </div>
     </div>
