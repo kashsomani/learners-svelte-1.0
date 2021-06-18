@@ -1,6 +1,14 @@
+const teachersDirectory = "./assets/teachers"
+const src = (img)=>`${teachersDirectory}/${img}`
 export const teachingFacultyData = [{
-    name: "Amina",
+    name: "Rufus",
     info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-    src:"assets/Teachers/Amina.png",
-    email:"info@learnersacademy.education"
+    src: src("Amina.png"),
+    email:"admin@learnersacademy.education"
+},
+{
+    name: "Dufus",
+    info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
+    src: src("Amina.png"),
+    email:"admin@learnersacademy.education"
 }];

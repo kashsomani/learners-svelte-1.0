@@ -12,15 +12,15 @@
 		<div class="relative m-0 shadow-lg bg-light grid grid-cols-2">
 			<div class="grid grid-cols-1 place-items-center h-full card-image ">
 				<img
-					alt=""
+					alt={name}
 					class="p-4 w-48 block mx-auto"
-					src={src}
+					{src}
 				/>
 			</div>
 			<TeacherCardHoverable let:hover={active}>
 				<div class="h-full">
 					{#if !active}
-						<div class="p-4" in:fade={{ duration: 300 }}>
+						<div class="p-4" in:fade={{ duration: 500 }}>
 							<h4 class=" text-2xl mb-3">{name}</h4>
 							<p class="leading-normal">
 								{info}
@@ -29,7 +29,7 @@
 						<!-- content here -->
 					{:else}
 						<div
-							in:fade={{ duration: 300 }}
+							in:fade={{ duration: 500 }}
 							class="grid grid-cols-1 grid-flow-col place-items-center p-4"
 						>	
 							<a href="mailto:{email}" class="w-3/4"><img src="assets/email.png" alt=""/></a>

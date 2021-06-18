@@ -1,7 +1,7 @@
 <script>
     export let teachers;
     export let heading;
-    import TeacherCard from './TeacherCard.svelte'
+    import TeacherCard from './TeacherCard/TeacherCard.svelte'
 </script>
 <div class="grid grid-cols-1 place-items-center">
     <div class="teacher-section-heading p-4">

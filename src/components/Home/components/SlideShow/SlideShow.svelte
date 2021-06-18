@@ -1,8 +1,8 @@
 <script>
     import { images } from "./data/slideShowData.js";
-    import Slide from "./Slide.svelte";
-    import Thumbnail from "./Thumbnail.svelte";
-    import Caption from "./Caption.svelte";
+    import Slide from "./components/Slide.svelte";
+    import Thumbnail from "./components/Thumbnail.svelte";
+    import Caption from "./components/Caption.svelte";
 
     let imageShowingIndex = 0;
     $: console.log(imageShowingIndex);

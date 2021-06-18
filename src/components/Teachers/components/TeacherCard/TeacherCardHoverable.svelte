@@ -1,5 +1,4 @@
 <script>
-
     let hover;
 	let enter = () => (hover = true)
 	let leave = () => (hover = false)

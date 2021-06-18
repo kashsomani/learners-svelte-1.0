@@ -1,38 +1,5 @@
 <script>
-	let staff = [
-	{
-		id: 0,
-		  name: "Mr Sumeet Gupta",
-		  position: "Trustee",
-		  descr: "Mr. Sumeet Gupta is the spearhead and visionary of Learners’.",
-		  email: "shahinsomani@learnersacademy.education",
-		  img: "./assets/sumeet.jpg"	
-	  },
-	{
-		id: 1,
-		  name: "Mrs. Shahin Somani",
-		  position: "Administrator",
-		  descr: "Mrs.Shahin Somani is an inspiring leader who ensures that Learners’ remains a step ahead.",
-		  email: "shahinsomani@learnersacademy.education",
-		  img: "./assets/shahin.jpg"
-	  },
-	{
-		id: 2,
-		  name: "Miss Jessica Sequeira",
-		  position: "Principal",
-		  descr: "Ms.Jessica Sequeira is a dynamic principal who maintains the excellent academics at Learners’.",
-		  email: "jessicasequeira@learnersacademy.education",
-		  img: "./assets/jessica.jpg"	
-		},
-	{
-		id: 3,
-		  name: "Miss Yashica Patel",
-		  position: "Vice-Administrator",
-		  descr: "Ms.Yashica Patel is an enthusiastic deputy admin who mentors the engaging activities of Learners'.",
-		  email: "yashicapatel@learnersacademy.education",
-		  img: "./assets/yashica new.jpg"	
-	  }
-  ]
+	import {cardData} from './cardData.js' 
 
 	
 	let selected;
@@ -53,15 +20,15 @@
 </script>
 
 <div class="row">
-    {#each staff as {name, position, descr, email, img}, i}
+    {#each cardData as {alt, position, descr, email, src}, i}
         <div class="flip-box">
             <div class="flip-box-inner" class:show-back={selected === i}>
                 <div class="flip-box-front card">
-                    <img src={img} alt={name}>
+                    <img {...{src,alt}}>
                 </div>
 
                 <div class="flip-box-back container">
-                    <h2>{name}</h2>
+                    <h2>{alt}</h2>
                     <p class="title">{position}</p>
                     <p>{descr}</p>
                     <a href="mailto:{email}">Email</a>

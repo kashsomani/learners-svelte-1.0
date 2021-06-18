@@ -12,7 +12,7 @@
 		<div class="heading"><h1>Learners' Academy</h1></div>
 		<div id="motto">Life is Learning</div>
 	</div>
-
+	
 	<Router {routes} />
 
 	<Footer />
