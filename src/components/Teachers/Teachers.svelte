@@ -1,5 +1,6 @@
 <script>
     import { academicManagementData } from "./teachersData/academicManagement";
+    import { officeStaffData } from "./teachersData/officeStaff";
     import { teachingFacultyData } from "./teachersData/teachingFaculty";
     import TeachingFacultySection from "./components/TeachingFacultySection.svelte";
     import { fly } from "svelte/transition";
@@ -15,4 +16,5 @@
         heading="Teaching Faculty"
         teachers={teachingFacultyData}
     />
+    <TeachingFacultySection heading="Office Staff" teachers={officeStaffData} />
 </div>

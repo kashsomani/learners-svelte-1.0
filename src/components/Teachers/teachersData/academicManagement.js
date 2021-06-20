@@ -4,33 +4,33 @@ const email = "support@learnersacademy.education"
 export const academicManagementData = [
     {
         name: "Shabana Afsar",
-        info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-        src: src("shabana.png"),
+        info: "Mrs. Afsar is our head coordinator and also teaches Science in the secondary section",
+        src: src("ShabanaAfsar.png"),
         email: email
 
     },
     {
-        name: "Francisca",
-        info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-        src: src("francisca.png"),
+        name: "Francisca Gonsalves",
+        info: "Ms. Gonsalves is the secondary coordinator, and teaches Math and Commercial Studies to our secondary section",
+        src: src("FranciscaGonsalves.png"),
         email: email
 
     },
     {
-        name: "Brunella",
-        info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-        src: src("Brunella.png"),
+        name: "Brunella D'silva",
+        info: "Mrs. D'silva is the middle school coordinator and teaches Social Studies and English",
+        src: src("BrunellaDsilva.png"),
         email: email
     },
     {
-        name: "Urvashi",
-        info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-        src: src("urvashi.png"),
+        name: "Urvashi Parmar",
+        info: "Mrs. Parmar is our primary school coordinator and teaches Math",
+        src: src("UrvashiParmar.png"),
         email: email
     },
     {
-        name: "Amina",
-        info: "Magni inventore repellat dignissimos eveniet dolore ex sit illo adipisci accusamus quos.",
-        src: src("amina.png"),
+        name: "Amina Agwan",
+        info: "Mrs. Agwan is our pre-primary coordinator and teaches EVS, Math and English",
+        src: src("AminaAgwan.png"),
         email: email
     }];
