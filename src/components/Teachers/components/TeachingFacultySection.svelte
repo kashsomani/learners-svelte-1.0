@@ -9,7 +9,7 @@
         <h5>{heading}</h5>
     </div>
     <div
-        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 place-items-center m-0 px-20"
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 place-items-center m-0 px-6 md:px-20"
     >
         {#each teachers as teacher}
             <TeacherCard {...teacher} />

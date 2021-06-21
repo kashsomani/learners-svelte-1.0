@@ -1,4 +1,4 @@
-<div class="fixed top-40 w-14 left-2" id="sidenav">
+<div class="fixed top-40 w-8 sm:w-12 md:w-12 md:w-14 left-2" id="sidenav">
   <div class=" inset-y-0 left-0 text-center justify-items-center">
     <a href="#" class="pt-1 px-6 "><img src="./assets/home.svg" alt="home" /></a
     >
@@ -23,5 +23,6 @@
     border-color: var(--primary);
     border-width: 0.25rem;
     border-radius: 6rem;
+    z-index: 1000;
   }
 </style>

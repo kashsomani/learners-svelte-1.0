@@ -10,7 +10,7 @@ export const teachingFacultyData = [
     },
     {
         name: "Aysel Engineer",
-        info: "Mrs. Engineer is our in house councillor and is in charge of students wtih special needs",
+        info: "Mrs. Engineer is our in house counsellor and is in charge of students with special needs",
         src: src("AyselEngineer.png"),
         email: email
     },
@@ -52,7 +52,7 @@ export const teachingFacultyData = [
     },
     {
         name: "Hetal Parmar",
-        info: "Mrs. Parmar is our creative genius and is in charge of our Personal Pursuit program and other activities",
+        info: "Mrs. Parmar is our creative genius and is in charge of our Purposeful Pursuit program and other activities",
         src: src("HetalParmar.png"),
         email: email
     },
@@ -124,7 +124,7 @@ export const teachingFacultyData = [
     },
     {
         name: "Saziya Landge",
-        info: "Ms. Landge teaches S.T.E.M",
+        info: "Ms. Landge teaches Science and S.T.E.M",
         src: src("SaziyaLandge.png"),
         email: email
     },
@@ -149,7 +149,7 @@ export const teachingFacultyData = [
 
     {
         name: "Suraiya Landge",
-        info: "Ms. Landge teaches S.T.E.M to our secondary section",
+        info: "Ms. Landge teaches Chemistry & Physics to our secondary section",
         src: src("SuraiyaLandge.png"),
         email: email
     },
@@ -161,7 +161,7 @@ export const teachingFacultyData = [
     },
     {
         name: "Umama Plummer",
-        info: "Ms. Plumemr teaches Math and Science in our middle / secondary sections",
+        info: "Ms. Plummer teaches Math and Science in our middle / secondary sections",
         src: src("UmamaPlummer.png"),
         email: email
     },

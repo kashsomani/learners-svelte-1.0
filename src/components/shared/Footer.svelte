@@ -39,8 +39,9 @@
               >Email Address</span
             >
             <span class="my-2 text-center"
-              ><a href="mailto:admin@learnersacademy.eduation" class=" text-md"
-                >admin@learnersacademy.eduation</a
+              ><a
+                href="mailto:support@learnersacademy.eduation"
+                class=" text-md">support@learnersacademy.eduation</a
               ></span
             >
           </div>

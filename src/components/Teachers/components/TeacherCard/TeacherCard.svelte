@@ -11,14 +11,20 @@
 	<div class="max-w-md mx-auto p-0 m-0">
 		<div class="relative m-0 shadow-lg bg-light grid grid-cols-2">
 			<div class="grid grid-cols-1 place-items-center h-full card-image ">
-				<img alt={name} class="p-4 w-48 block mx-auto" {src} />
+				<img
+					alt={name}
+					class="teacher-image p-4 w-48 block mx-auto"
+					{src}
+				/>
 			</div>
 			<TeacherCardHoverable let:hover={active}>
 				<div class="h-full">
 					{#if !active}
 						<div class="p-4" in:fade={{ duration: 500 }}>
-							<h4 class=" text-2xl mb-3">{name}</h4>
-							<p class="leading-normal">
+							<h4 class="text-base md:text-xl mb-1 md:mb-3">
+								{name}
+							</h4>
+							<p class="leading-normal text-xs md:text-sm">
 								{info}
 							</p>
 						</div>
@@ -40,6 +46,9 @@
 </div>
 
 <style>
+	.teacher-image {
+		min-width: 75px;
+	}
 	.card-container {
 		box-shadow: 0.5rem 0.5rem 0.5rem rgba(15, 58, 33, 0.6);
 	}
