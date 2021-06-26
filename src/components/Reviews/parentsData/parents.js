@@ -14,7 +14,7 @@ export const parents = [
             kids and ensures that they get the best in every aspect. I am ever so grateful
             to the administration, teachers and non-teaching staff for delivering the
             highest standards in education for our students. Learners' Academy will
-            always be an integral part of our live`,
+            always be an integral part of our lives`,
 		src: src("Mrs.Peerbhoy.jpeg"),
 		title: "A sense of belonging",
 	},
