@@ -1,8 +1,8 @@
 <footer class="footer relative bottom-0 pt-1 border-b-2">
 	<div
-		class="text-xl font-bold uppercase mb-6 mt-8 flex flex-col justify-items-center items-center"
+		class="text-lg md:text-xl font-bold uppercase mb-6 mt-8 grid grid-cols-1 grid-flow-col place-items-center"
 	>
-		<h1 class="text-primary">Visit Us</h1>
+		<div><h1 class="text-primary">Visit Us</h1></div>
 	</div>
 	<div class="container mx-auto px-6">
 		<div class="sm:flex sm:mt-0">
@@ -15,7 +15,7 @@
 							>Address</span
 						>
 						<span class="my-2 text-center mb-0"
-							><p class="  text-md ">Learners Academy,</p></span
+							><p class="  text-md ">Learners' Academy,</p></span
 						>
 						<span class="my-2 text-center mb-0 mt-0"
 							><p class="  text-md  ">
@@ -57,7 +57,7 @@
 							>Office Timings</span
 						>
 						<span class="my-2 text-center"
-							><p class="  text-md hover:text-blue-500">
+							><p class="  text-md ">
 								Monday to Friday: 9.00 A.M. to 12.00 P.M
 							</p></span
 						>
