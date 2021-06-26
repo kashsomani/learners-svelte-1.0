@@ -9,7 +9,7 @@
 <svelte:head>
 	<title>Our Curriculum</title>
 </svelte:head>
-<div class="px-16 md:px-20 my-10 grid grid-cols-1 place-items-center">
+<div class="px-12 md:px-20 my-10 grid grid-cols-1 place-items-center">
 	<h2>Curriculum:</h2>
 	<div
 		class="grid grid-cols-1  md:grid-cols-2  place-items-stretch gap-4 "
@@ -28,7 +28,7 @@
 					<li>Science</li>
 					<li>Computer / Coding</li>
 					<li>Value Education</li>
-					<li>Personal Pursuits (P.P)</li>
+					<li>Purposeful Pursuits (P.P)</li>
 					<li>S.T.E.M</li>
 				</ul>
 			</div>
@@ -101,8 +101,8 @@
 		>
 			<h3 class="text-xl font-semibold">STD IX - X</h3>
 			<ul class="grid grid-cols-1 md:grid-cols-2 text-xl ">
-				<li class="flex ">
-					<div class="m-auto ">
+				<li>
+					<div>
 						<h4>Group I</h4>
 						<p>(Mandatory)</p>
 						<ul>
@@ -125,8 +125,8 @@
 						</ul>
 					</div>
 				</li>
-				<li class="flex">
-					<div class="m-auto">
+				<li>
+					<div>
 						<div class="p-1">
 							<h4>Group II</h4>
 							<p>(choose one)</p>
@@ -162,7 +162,7 @@
 			<h3 class="text-xl font-semibold">
 				To enhance and enrich our academic offerings, we also offer:
 			</h3>
-			<ul class="text-lg ">
+			<ul class="text-base sm:text-lg ">
 				<li>Swimming</li>
 				<li>Speech & Drama</li>
 				<li>Vedic Math</li>
@@ -206,5 +206,10 @@
 	}
 	.sub-list {
 		@apply text-sm grid grid-flow-col place-content-center;
+	}
+	@media only screen and (max-width: 340px) {
+		.sublist {
+			@apply text-xs;
+		}
 	}
 </style>

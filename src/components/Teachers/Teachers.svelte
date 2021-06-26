@@ -14,7 +14,7 @@
 <svelte:head>
 	<title>Our Teachers</title>
 </svelte:head>
-<div in:fly={{ duration: 2000 }} class="px-6">
+<div in:fly={{ duration: 2000 }} class="px-4">
 	<TeachingFacultySection
 		heading="Academic Management"
 		teachers={academicManagementData}

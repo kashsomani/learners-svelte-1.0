@@ -95,4 +95,18 @@
 			text-align: center;
 		}
 	}
+	@media only screen and (max-width: 340px) {
+		.card-image {
+			border: 0.6em solid rgba(15, 58, 33, 0.6);
+			padding: 0.5em;
+		}
+		#name {
+			font-size: medium;
+			text-align: center;
+		}
+		#info {
+			font-size: xx-small;
+			text-align: center;
+		}
+	}
 </style>
