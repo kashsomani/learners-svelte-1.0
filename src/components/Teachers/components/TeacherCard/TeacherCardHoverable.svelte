@@ -4,7 +4,11 @@
 	let leave = () => (hover = false);
 </script>
 
-<div on:mouseenter={enter} on:mouseleave={leave} class="flex h-full card-block">
+<div
+	on:mouseenter={enter}
+	on:mouseleave={leave}
+	class="flex w-full h-full card-block"
+>
 	<div class="m-auto">
 		<slot {hover} />
 	</div>
