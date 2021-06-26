@@ -207,9 +207,4 @@
 	.sub-list {
 		@apply text-sm grid grid-flow-col place-content-center;
 	}
-	@media only screen and (max-width: 340px) {
-		.sublist {
-			@apply text-xs;
-		}
-	}
 </style>
