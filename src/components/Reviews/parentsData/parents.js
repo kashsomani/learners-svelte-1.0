@@ -292,4 +292,96 @@ export const parents = [
 		src: src("Mrs.SaniaDarvesh.jpeg"),
 		title: "Temple of Education",
 	},
+	{
+		name: "Mrs. Jarna Thawrani",
+		info: `
+            Learners Academy is a very good and old institution in Bandra(W).
+            I would like to share my experience being associated with the school
+            for almost nine years. The institute has been working very efficiently
+            with good management and very hardworking teachers. Children have been
+            taught good discipline right from the beginning. Teachers are very
+            patient and courteous with everyone. Both my children Karan Thawrani
+            and Twinkle Thawrani haveh passed out with flying colors. I would 
+            like to mention that the institute has been excellent with extra
+            curricular activities too. To put it together, I feel it was a 
+            good decision as a parent to have both my kids at Learners.
+        `,
+		src: src("Mrs.JarnaThawrani.jpeg"),
+		title: "Great Institute",
+	},
+	{
+		name: "Mr. Imran Babu Quereshi",
+		info: `
+            All three of my children, 
+            Talal,Bilal & Alina, are Associated with Learner’s Academy. 
+            The School has played a pivotal role in their upbringing, Personality
+            Grooming & Shaping their Future to its fullest potential.  Excellent
+            Teaching Faculty, Brilliant Study methods & Great Hospitality. 
+            My Children are blessed with wonderful childhood memories.
+            The school will always hold a special Place in their Heart.
+        `,
+		src: src("Mr.ImranBabuQuereshi.jpeg"),
+		title: "Everything a child could ask for",
+	},
+	{
+		name: "Mrs. Marian D'Souza",
+		info: `
+            I would like to thank you this opportunity to share my experience with 
+            Learners' Academy. I have spent a totla of 14 years being associated with the
+            Learners' family. Both my children - completed their entire school life in
+            this school, right from Lower KG up until STD X. Learners' Academy has played a 
+            huge role in their childhood, and has been a second home to them. The teachers
+            and faculty take utmost care of each child, as if they were their own.
+            What is great about this school is that you can approach them and request to
+            see a teacher to check you child's progress without haveing to wait fot the open day
+            held twice a year.
+            Apart from imparting teaching the school also focusses on discipline, hygiene,
+            good manners, etc. which is essential for every child's formative years. The teachers
+            are caring and recognize each child's uniqueness. Being a small school each child is
+            given individual attention, and teachers have a personal touch with all students. Every
+            child has the oppotunity to shine on Annual Day with a role comfortable for them to undertake
+            factoring in the child's choice / interest. Students havea stress free environment here in Learners'
+            and are comfortable to voice their opinions.
+            The teachers are amazing and the child doesn't hesitate to approach their teacher in times of doubt
+            or to clear any queries any time. The school always finds ways to make education fun for students.
+            Meghan will never forget how she mastered the numbers in French, by learning to sing the numbers
+            in French, mmaking it easy to remember as well as improve her pronounciation. Learners' encourages
+            the students to form a more healthy and friendly environment. Having experienced college life, Abriel
+            has renewed appreciation for the care, encouragement and guidance he received at Learners'
+            The teachers were like second parents to my children and made them feel proud and accomplished in
+            whatever activity they did. The support staff have been equally wonderful with the children, hand holding
+            them when they were babies to correcting them during their notorious times. These memories will remain
+            with both my children forever.
+            Many activities and facilities have improved throughout the years to create the best place for our children's
+            development. A child's development is formed by enviornment and experience witth friends, family and teachers.
+            Learners' Academy is a wonderful place for the kids to learn. I am so glad I chose Leanrners' Academy for
+            my children's education and will always be proud to have been a part of the Learners' family.
+        `,
+		src: src("Mrs.MarianD'Souza.jpeg"),
+		title: "Glad I chose Learners'",
+	},
+	{
+		name: "Mr. Zariwala",
+		info: `
+        As an ex student of Learner Academy. I have warm memories of the terrific staff and amazing headteacher. 
+        When deciding school for my own children I had no hesitation in choosing Leaners because of my own
+        positive, wholesome experience. The nurturing and support I received as a student provided me
+        with life skills which I can see developing in my children.
+        `,
+		src: src("Mr.Zariwala.jpeg"),
+		title: "Learners' for generations",
+	},
+	{
+		name: "Mrs. Husna Dhanji",
+		info: `
+        Learners' Academy is a place where students are served knowledge with love and care.
+        Besides queality education their positive environment brings confidence in the child. Various events and
+        programs are conducted to enchance child's physical and soical development.
+        Every year pre-primary to secondary gets oppurtunity to learn and expolore new things. The teaching staff
+        and administration are nice and supportive. 
+        I am happy my child and I are associated with Learners' Academy. I highly recommend this school.
+        `,
+		src: src("Mrs.HusnaDhanji.jpeg"),
+		title: "Highly Recommended",
+	},
 ];
