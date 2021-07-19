@@ -37,14 +37,14 @@
                 totalSlides={images.length}
             />
         </div>
-    
+
     <div id="bottom-info">
         <Caption caption={images[imageShowingIndex].name}
         on:prevClick={prevSlide}
         on:nextClick={nextSlide}/>
     </div>
-        
-    
+
+
         <!-- Thumbnail images -->
         <div class="thumbnails-row">
             {#each images as { id, imgurl, name }}
@@ -58,7 +58,7 @@
             {/each}
         </div>
     </div>
-    
+
 </main>
 
 <style>
@@ -72,7 +72,7 @@
     main {
         display: flex;
         flex-direction: column;
-        
+
     }
     .main-container{
         width: 100%;
@@ -90,12 +90,14 @@
     position: relative;
     left: 50%;
     margin-left: -50%;
-    
+
     }
 
     .thumbnails-row {
         width: 100%;
         display: flex;
         align-self: flex-end;
+
     }
+
 </style>

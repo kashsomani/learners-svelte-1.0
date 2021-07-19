@@ -13,6 +13,12 @@
 
 <style>
   /* Number text (1/3 etc) */
+  img{
+    border-radius: 72px;
+background: #94f09a;
+box-shadow:  17px 17px 15px #6eb272,
+             -17px -17px 15px #baffc2;
+  }
   .numbertext {
     color: #f2f2f2;
     font-size: 0.9rem;
