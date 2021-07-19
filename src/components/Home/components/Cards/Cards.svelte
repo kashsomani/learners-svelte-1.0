@@ -86,7 +86,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		color: white;
 		transform: rotateY(180deg);
 		border-radius: 72px;
 background: #94f09a;
@@ -138,7 +137,7 @@ box-shadow:  17px 17px 25px #6eb272,
 	}
 
 	.title {
-		color: grey;
+		@apply font-extrabold
 	}
 
 	.row {
