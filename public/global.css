@@ -18,7 +18,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background: rgba(110, 238, 163, 0.301);
+	background: #b0e8b7;
 	font-family: "Roboto Condensed";
 	display: flex;
 	flex-direction: column;
