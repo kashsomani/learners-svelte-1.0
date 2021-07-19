@@ -20,7 +20,7 @@
 >
 	{#each parents as parent}
 		<div
-			class=" grid grid-cols-1 gap-0 max-w-md py-4 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class=" grid grid-cols-1 gap-0 max-w-md py-4 px-8 my-6 parent"
 		>
 			<div class="flex justify-center md:justify-end -mt-16">
 				<!-- svelte-ignore a11y-missing-attribute -->
@@ -43,13 +43,17 @@
 </div>
 
 <style>
-	.bg-card {
-		background-color: #16bd0734;
-	}
 	#container {
 		align-items: stretch;
 		place-items: stretch;
 	}
+	.parent{
+		border-radius: 67px;
+background: linear-gradient(145deg, #85d88b, #9effa5);
+box-shadow:  15px 15px 30px #73bb78,
+             -15px -15px 30px #b5ffbc;
+	}
+	
 	.parent-section-heading {
 		font-size: xx-large;
 		color: var(--primary);
