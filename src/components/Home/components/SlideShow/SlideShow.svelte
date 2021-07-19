@@ -28,35 +28,32 @@
 </script>
 
 <main id="slideshow" class="grid grid-cols-1 place-items-center items-center">
-    <div class="main-container">
-        <div class="container">
+    <div class="main-container ">
+        <div class="container grid grid-cols-12 place-items-center">
+          <div class="col-span-1 grid grid-cols-1 place-items-center pr-2">
+            <button
+            on:click={prevSlide}
+            class="h-12"
+            > <img src="./assets/prev.png" alt="previous image">
+          </button>
+          </div>
+          <div class="col-span-10">
             <Slide
                 image={image.imgurl}
                 altTag={image.name}
-                slideNo={image.id + 1}
-                totalSlides={images.length}
             />
+          </div>
+
+            <div class="col-span-1 grid grid-cols-1 place-items-center pl-2">
+              <button
+              on:click={nextSlide}
+              class="h-12"
+              > <img src="./assets/next.png" alt="next image"></button>
+            </div>
+
         </div>
 
-    <div id="bottom-info">
-        <Caption caption={images[imageShowingIndex].name}
-        on:prevClick={prevSlide}
-        on:nextClick={nextSlide}/>
-    </div>
 
-
-        <!-- Thumbnail images -->
-        <div class="thumbnails-row">
-            {#each images as { id, imgurl, name }}
-                <Thumbnail
-                    thumbImg={imgurl}
-                    altTag={name}
-                    {id}
-                    selected={imageShowingIndex === id}
-                    on:click={() => goToSlide(id)}
-                />
-            {/each}
-        </div>
     </div>
 
 </main>
@@ -75,10 +72,10 @@
 
     }
     .main-container{
-        width: 100%;
-    position: relative;
-    left: 50%;
-    margin-left: -50%;
+    border-radius: 50px;
+background: #94f09a;
+box-shadow:  20px 20px 60px #7ecc83,
+             -20px -20px 60px #aaffb1;
     }
     #slideshow{
         max-width: 70%;
@@ -86,11 +83,7 @@
 
     /* Position the image container (needed to position the left and right arrows) */
     .container {
-  width: 100%;
-    position: relative;
-    left: 50%;
-    margin-left: -50%;
-
+    @apply p-8
     }
 
     .thumbnails-row {
@@ -99,5 +92,6 @@
         align-self: flex-end;
 
     }
+
 
 </style>
