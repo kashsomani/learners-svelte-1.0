@@ -26,7 +26,7 @@
 					<img {...{ src, alt }} />
 				</div>
 
-				<div class="flip-box-back container">
+				<div class="flip-box-back p-6">
 					<h2>{alt}</h2>
 					<p class="title">{position}</p>
 					<p>{descr}</p>
@@ -86,15 +86,21 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: #00923c;
 		color: white;
 		transform: rotateY(180deg);
-		border: 1px solid darkgray;
+		border-radius: 72px;
+background: #94f09a;
+box-shadow:  17px 17px 25px #6eb272,
+             -17px -17px 25px #baffc2;
 	}
 
 	img {
 		height: 100%;
 		max-width: 100%;
+		border-radius: 72px;
+background: #94f09a;
+box-shadow:  17px 17px 25px #6eb272,
+             -17px -17px 25px #baffc2;
 	}
 
 	footer {
@@ -102,7 +108,10 @@
 		font-weight: 800;
 		padding: 0.5rem 1rem;
 		text-align: center;
-		border: 1px solid darkgray;
+		border-radius: 72px;
+background: #94f09a;
+box-shadow:  17px 17px 25px #6eb272,
+             -17px -17px 25px #baffc2;
 		cursor: pointer;
 		transition: 0.3s all;
 	}
@@ -122,14 +131,8 @@
 	}
 
 	/* Add some shadows to create a card effect */
-	.card {
-		box-shadow: 0 4px 8px 0 #00923c;
-	}
 
 	/* Some left and right padding inside the container */
-	.container {
-		padding: 5px;
-	}
 	h2 {
 		margin: 5px 0 0 0;
 	}
