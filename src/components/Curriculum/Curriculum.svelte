@@ -12,10 +12,10 @@
 <div class="px-12 md:px-20 my-10 grid grid-cols-1 place-items-center">
 	<h2>Curriculum:</h2>
 	<div
-		class="grid grid-cols-1  md:grid-cols-2  place-items-stretch gap-4 "
+		class="grid grid-cols-1  md:grid-cols-2  place-items-stretch gap-6 "
 	>
 		<div
-			class="text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class="text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">STD I - II</h3>
 			<div>
@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		<div
-			class=" text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class=" text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">STD III - V</h3>
 
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 		<div
-			class="grid grid-cols-1 place-items-center text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class="grid grid-cols-1 place-items-center text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">STD VI - VIII</h3>
 			<ul class="text-lg ">
@@ -76,7 +76,7 @@
 			</ul>
 		</div>
 		<div
-			class="grid grid-cols-1 place-items-center text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class="grid grid-cols-1 place-items-center text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">STD VI - VIII</h3>
 			<ul class="text-lg ">
@@ -97,7 +97,7 @@
 			</ul>
 		</div>
 		<div
-			class="md:col-span-2 xl:col-span-2 text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class="md:col-span-2 xl:col-span-2 text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">STD IX - X</h3>
 			<ul class="grid grid-cols-1 md:grid-cols-2 text-xl ">
@@ -157,7 +157,7 @@
 			</ul>
 		</div>
 		<div
-			class="md:col-span-2 grid grid-cols-1 place-items-center text-center py-2 px-8 shadow-lg rounded-lg my-6 bg-card"
+			class="md:col-span-2 grid grid-cols-1 place-items-center text-center py-2 px-8 card rounded-lg my-6 "
 		>
 			<h3 class="text-xl font-semibold">
 				To enhance and enrich our academic offerings, we also offer:
@@ -187,10 +187,6 @@
 </div>
 
 <style lang="postcss">
-	.bg-card {
-		background-color: #16bd0734;
-		border: 0.2em solid #16bd0785;
-	}
 	h4 {
 		@apply font-semibold;
 	}
@@ -202,9 +198,16 @@
 	}
 	h2 {
 		color: var(--primary);
-		@apply text-3xl;
+		margin-bottom:1rem;
+		@apply text-4xl;
 	}
 	.sub-list {
 		@apply text-sm grid grid-flow-col place-content-center;
+	}
+	.card{
+		border-radius: 72px;
+background: #94f09a;
+box-shadow:  17px 17px 34px #6eb272,
+             -17px -17px 34px #baffc2;
 	}
 </style>
