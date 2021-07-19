@@ -1,6 +1,7 @@
 <script>
 	import * as animateScroll from "svelte-scrollto";
 	import { onMount } from "svelte";
+	import { fly } from "svelte/transition";
 	onMount(() => {
 		animateScroll.scrollToTop({ duration: 1000 });
 	});
@@ -9,7 +10,7 @@
 <svelte:head>
 	<title>Our Curriculum</title>
 </svelte:head>
-<div class="px-12 md:px-20 my-10 grid grid-cols-1 place-items-center">
+<div in:fly={{ duration: 2000 }} class="px-12 md:px-20 my-10 grid grid-cols-1 place-items-center">
 	<h2>Curriculum:</h2>
 	<div
 		class="grid grid-cols-1  md:grid-cols-2  place-items-stretch gap-6 "
