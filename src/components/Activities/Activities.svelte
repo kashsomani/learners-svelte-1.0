@@ -12,9 +12,9 @@
 </svelte:head>
 <div
 	in:fly={{ duration: 2000 }}
-	class="p-20 grid grid-cols-1 place-items-center"
+	class="grid grid-cols-1 place-items-center"
 >
-	<div>
+	<div class="p-8 m-20 embossed">
 		<iframe
 			width="560"
 			height="315"
