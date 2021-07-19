@@ -36,6 +36,7 @@
 		position: relative;
 		left: 50%;
 		margin-left: -37.5%;
+		
 	}
 	#cards {
 		width: 75%;
