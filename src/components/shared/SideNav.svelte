@@ -1,4 +1,4 @@
-<div class="fixed top-48 w-8 sm:w-12 md:w-14 left-2" id="sidenav">
+<div class="fixed top-48 w-8 sm:w-12 md:w-14 left-3" id="sidenav">
 	<div class=" inset-y-0 left-0 text-center justify-items-center">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="pt-1 px-6 "
@@ -21,17 +21,16 @@
 </div>
 
 <style>
+
 	img {
 		width: 90%;
 		margin: 0 auto;
 	}
 	#sidenav {
-		background: #4fc46850;
-		border-style: solid;
-		border-color: var(--primary);
-		border-width: 0.25rem;
-		border-radius: 6rem;
 		z-index: 1000;
-		box-shadow: 0.2em 0.2em 0.5em green;
+		border-radius: 67px;
+background: linear-gradient(145deg, #85d88b, #9effa5);
+box-shadow:  15px 15px 30px #73bb78,
+             -15px -15px 30px #b5ffbc;
 	}
 </style>
