@@ -87,10 +87,6 @@ box-shadow:  26px 26px 64px #9dcea3,
 		}
 	}
 	@media only screen and (max-width: 600px) {
-		.card-image {
-			border: 0.6em solid rgba(15, 58, 33, 0.6);
-			padding: 0.5em;
-		}
 		#name {
 			font-size: x-large;
 			text-align: center;
@@ -101,10 +97,6 @@ box-shadow:  26px 26px 64px #9dcea3,
 		}
 	}
 	@media only screen and (max-width: 340px) {
-		.card-image {
-			border: 0.6em solid rgba(15, 58, 33, 0.6);
-			padding: 0.5em;
-		}
 		#name {
 			font-size: medium;
 			text-align: center;
