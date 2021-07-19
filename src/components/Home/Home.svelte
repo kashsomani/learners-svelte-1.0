@@ -16,13 +16,13 @@
 </svelte:head>
 
 <main in:fly={{ duration: 2000 }}>
-	<div class="p-24 text-justify">
+	<div class="m-16 p-8 text-justify embossed-depressed">
 		<Intro />
 	</div>
 	<div id="slideshow" class="grid grid-cols-1 place-items-center">
 		<SlideShow />
 	</div>
-	<div class="p-24 text-justify">
+	<div class="p-20 my-8 text-justify depressed">
 		<AboutUs />
 	</div>
 	<div id="cards">
@@ -31,9 +31,7 @@
 </main>
 
 <style>
-	#slideshow {
 
-	}
 	#cards {
 		width: 75%;
 		position: relative;
