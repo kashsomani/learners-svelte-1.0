@@ -15,13 +15,13 @@
             <span class="my-2 text-center mb-0"
               ><p class="  text-md ">Learners' Academy,</p></span
             >
-            <span class="my-2 text-center mb-0 mt-0"
-              ><p class="  text-md  ">
+            <span class="my-2 text-center mb-0 mt-0">
+              <p class="  text-md ">
                 Mangal Aarti, St. Andrews Rd, Bandra West,
               </p></span
             >
-            <span class="my-2 text-center mt-0"
-              ><p class="  text-md ">Mumbai - 400050, MH, IND</p></span
+            <span class="my-2 text-center mt-0">
+              <p class="  text-md ">Mumbai - 400050, MH, IND</p></span
             >
           </div>
         </div>
