@@ -357,4 +357,4 @@ Learners' Academy is a wonderful place for the kids to learn. I am glad I chose 
 		src: src("Mrs.HusnaDhanji.jpeg"),
 		title: "Highly Recommended",
 	},
-].sort((a, b) => (b.info.length - a.info.length)); //sorts by decending order of size
+].sort((a, b) => b.info.length - a.info.length); //sorts by decending order of size

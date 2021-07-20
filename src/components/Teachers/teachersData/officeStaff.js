@@ -1,8 +1,7 @@
 const teachersDirectory = "./assets/teachers/office-staff";
 const src = (dir) => `${teachersDirectory}/${dir}`;
 const email = "support@learnersacademy.education";
-export const officeStaffData = [
-	{
+export const officeStaffData = [{
 		name: "Pooja Ahuja",
 		info: "Mrs. Ahuja is our office manager",
 		src: src("PoojaAhuja.png"),
