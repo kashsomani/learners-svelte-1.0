@@ -104,12 +104,6 @@ export const teachingFacultyData = [{
 		email: email,
 	},
 	{
-		name: "Ramnayan Dubey",
-		info: "Mr. Dubey teaches Hindi in our secondary section",
-		src: src("RamnayanDubey.png"),
-		email: email,
-	},
-	{
 		name: "Renuka D'souza",
 		info: "Mrs D'souza Is our head computer science teacher and is also involved in other activities such as making this website",
 		src: src("RenukaDsouza.png"),
@@ -145,23 +139,10 @@ export const teachingFacultyData = [{
 		src: src("SunetraJharikar.png"),
 		email: email,
 	},
-
-	{
-		name: "Suraiya Landge",
-		info: "Ms. Landge teaches Chemistry & Physics to our secondary section",
-		src: src("SuraiyaLandge.png"),
-		email: email,
-	},
 	{
 		name: "Swara Bhosle",
 		info: "Mrs. Bhosle teaches Art and Craft",
 		src: src("SwaraBhosle.png"),
-		email: email,
-	},
-	{
-		name: "Umama Plummer",
-		info: "Ms. Plummer teaches Math and Science in our middle / secondary sections",
-		src: src("UmamaPlummer.png"),
 		email: email,
 	},
 	{
